@@ -1,0 +1,10 @@
+apiVersion: 1
+
+providers:
+- name: Default
+  type: file
+  folder: System
+  updateIntervalSeconds: 30
+  options:
+    path: /var/lib/grafana/dashboards
+    foldersFromFilesStructure: true
